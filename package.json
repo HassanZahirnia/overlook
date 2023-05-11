@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "dev:styles": "npx tailwindcss -i resources/css/plugin.css -o resources/dist/overlook.css --postcss --watch",
-        "build:styles": "npx tailwindcss -i resources/css/plugin.css -o resources/dist/overlook.css --postcss --minify && npm run purge",
+        "build:styles": "npx tailwindcss -i resources/css/plugin.css -o resources/dist/overlook.css --postcss --minify",
         "purge": "filament-purge -i resources/dist/overlook.css -o resources/dist/overlook.css",
         "dev": "npm-run-all --parallel dev:*",
         "build": "npm-run-all build:*"

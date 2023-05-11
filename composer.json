@@ -1,10 +1,11 @@
 {
     "name": "awcodes/overlook",
-    "description": "A Filament plugin that adds an app overview widget to your admin panel.",
+    "description": "Some useful tools to help you get an overview of your Filament App.",
     "keywords": [
         "awcodes",
         "laravel",
-        "overlook"
+        "overlook",
+        "filament"
     ],
     "homepage": "https://github.com/awcodes/overlook",
     "support": {
@@ -21,7 +22,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^2.0",
+        "filament/filament": "^3.0",
         "spatie/laravel-package-tools": "^1.13.5"
     },
     "require-dev": {
@@ -73,6 +74,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "prefer-stable": true
 }
